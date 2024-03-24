@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="p-6 bg-gray-900">     
       <body className={inter.className}>
-        <nav className="text-white rounded-sm bg-gray-600">
-          <ul className="flex gap-2">
+        <nav className="text-white rounded-sm bg-gray-900">
+          <ul className="flex gap-2 float-right">
             <li>
               <Link href="/"> Home </Link>
             </li>
@@ -23,8 +23,6 @@ export default function RootLayout({ children }) {
             </li>
           </ul>  
         </nav>
-        <br></br>
-        <hr></hr>
         {children}
       </body>
     </html>
