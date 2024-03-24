@@ -14,12 +14,12 @@ export default function RootLayout({ children }) {
     <html lang="en" className="p-6 bg-gray-900">     
       <body className={inter.className}>
         <nav className="text-white rounded-sm">
-          <ul>
+          <ul className="flex float-right">
             <li>
-              Home
+              <Link href="/"> Home </Link>
             </li>
             <li>
-              About
+              <Link href="/about"> About </Link>
             </li>
           </ul>  
         </nav>
