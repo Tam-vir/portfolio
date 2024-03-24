@@ -16,10 +16,10 @@ export default function RootLayout({ children }) {
         <nav className="text-white rounded-sm">
           <ul>
             <li>
-              <Link href="/">Home</Link>
+              Home
             </li>
             <li>
-              <Link href="/about">About</Link>
+              About
             </li>
           </ul>  
         </nav>
