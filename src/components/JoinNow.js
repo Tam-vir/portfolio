@@ -7,7 +7,7 @@ export default function JoinNow() {
           <h1 className="text-4xl font-extrabold">Ready to have some fun?</h1>
           <br/> 
            
-          <p className="text-2xl">Otaku Realm is a place full of amazing people with lots of fun activities! Be a member now for an amazing experience! This server has all the amazing game and music bots to spice up your stay!</p>
+          <p className="text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod dictum varius. Nulla ultrices, ligula quis vestibulum laoreet, elit dui volutpat tellus, a sodales lorem ex vel augue. Aliquam et lectus in ipsum dictum rhoncus ut ut libero. Aliquam bibendum pretium justo.</p>
           <br/>
           <a href="https://discord.gg/6hkKNjfnm5" type="button" className="w-2/6 transition duration-500 ease-in-out border border-green-400 hover:scale-110 bg-gradient-to-r from-green-400 via-gray-900 to-gray-900 p-2 text-2xl text-center rounded-md"> Join Now!</a>
         </div>
