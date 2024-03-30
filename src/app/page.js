@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Welcome from "./Welcome";
+import Welcome from "@/components/Welcome";  
+import JoinNow from "@/components/JoinNow";  
 /**
  const myHeaders = new Headers();
  myHeaders.append("Authorization", "8o3EaqEdep-EZzerEFTZcMnq2Q5tPdqt3");
@@ -17,8 +18,9 @@ import Welcome from "./Welcome";
  */
 export default function Home() {
   return (
-    <main className="bg-banner bg-cover bg-center w-full h-full">
+    <main className="w-full h-full">
       <Welcome />
+      <JoinNow />
     </main>
   );
 }
