@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Welcome from "@/components/Welcome";  
 import JoinNow from "@/components/JoinNow";  
+import ServerStats from "@/components/ServerStats";
 /**
  const myHeaders = new Headers();
  myHeaders.append("Authorization", "8o3EaqEdep-EZzerEFTZcMnq2Q5tPdqt3");
@@ -21,6 +22,7 @@ export default function Home() {
     <main className="w-full h-full">
       <Welcome />
       <JoinNow />
+      <ServerStats />
     </main>
   );
 }
