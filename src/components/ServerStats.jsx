@@ -4,6 +4,11 @@ import {faFaceLaughSquint} from "@fortawesome/free-regular-svg-icons"
 export default function Welcome() {
   return (
       <div className="w-full h-full flex flex-col justify-center items-center p-6">
+        <h1 className="text-5xl text-extrabold">Server Stats</h1>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <div className="w-3/4 gap-6 flex flex-row justify-around items-center flex-wrap">
           <div className="p-2 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20">
             <div className="flex flex-col items-center">          
