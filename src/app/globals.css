@@ -45,3 +45,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #202c42;
 }
+.staticon{
+  font-size: 26px;
+}

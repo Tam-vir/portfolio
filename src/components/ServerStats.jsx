@@ -3,43 +3,48 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faFaceLaughSquint} from "@fortawesome/free-regular-svg-icons"
 export default function Welcome() {
   return (
-      <div className="w-full h-full flex flex-col items-center justify-center">
-        <div className="w-3/4 grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-5 grid-flow-row border border-white p-4">
-          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg">
-            <div>          
-              <p className="text-yellow-500 text-xs"><FontAwesomeIcon icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
-              <span className="text-yellow-500 text-xs"> </span>         
+      <div className="w-full h-full flex flex-col justify-center items-center p-6">
+        <div className="w-3/4 gap-6 flex flex-row justify-around items-center flex-wrap">
+          <div className="p-2 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20">
+            <div className="flex flex-col items-center">          
+              <p className="text-yellow-500 text-xs"><FontAwesomeIcon className="staticon" icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
+              <span className="text-yellow-500 text-xs">Members</span>         
             </div>
             <h1>212</h1>
           </div>
-          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg">
-            <div>          
-              <p className="text-yellow-500 text-xs"><FontAwesomeIcon icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
+
+          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20 w-20 h-20">
+            <div className="flex flex-col items-center">          
+              <p className="text-yellow-500 text-xs"><FontAwesomeIcon className="staticon" icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
               <span className="text-yellow-500 text-xs">Members</span>         
             </div>
-            <h1>213</h1>
+            <h1>212</h1>
           </div>
-          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg">
-            <div>          
-              <p className="text-yellow-500 text-xs"><FontAwesomeIcon icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
+
+          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20">
+            <div className="flex flex-col items-center">          
+              <p className="text-yellow-500 text-xs"><FontAwesomeIcon className="staticon" icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
               <span className="text-yellow-500 text-xs">Members</span>         
             </div>
-            <h1>213</h1>
+            <h1>212</h1>
           </div>
-          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg">
-            <div>          
-              <p className="text-yellow-500 text-xs"><FontAwesomeIcon icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
+
+          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20">
+            <div className="flex flex-col items-center">          
+              <p className="text-yellow-500 text-xs"><FontAwesomeIcon className="staticon" icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
               <span className="text-yellow-500 text-xs">Members</span>         
             </div>
-            <h1>213</h1>
+            <h1>212</h1>
           </div>
-          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg">
-            <div>          
-              <p className="text-yellow-500 text-xs"><FontAwesomeIcon icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
+
+          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20">
+            <div className="flex flex-col items-center">          
+              <p className="text-yellow-500 text-xs"><FontAwesomeIcon className="staticon" icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
               <span className="text-yellow-500 text-xs">Members</span>         
             </div>
-            <h1>213</h1>
+            <h1>212</h1>
           </div>
+          
         </div>
       </div>
   );
