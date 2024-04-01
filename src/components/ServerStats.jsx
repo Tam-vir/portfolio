@@ -13,6 +13,12 @@ import OwnerCard from "./statcards/OwnerCard"
 export default function Welcome() {
   return (
       <div className="w-full h-full flex flex-col justify-center items-center p-6">
+        <h1 className="text-4xl font-thin text-purple-400 tracking-widest">SERVER STATS</h1>
+        <br/>
+        <hr className="w-1/2 statLine"/>
+        <br/>
+        <br/>
+        <br/>
         <div className="w-full grid grid-cols-3 gap-6">
          
           <div className="flex justify-center items-center"><TotalCard /></div>
