@@ -13,17 +13,17 @@ import OwnerCard from "./statcards/OwnerCard"
 export default function Welcome() {
   return (
       <div className="w-full h-full flex flex-col justify-center items-center p-6">
-        <div className="w-full grid grid-cols-3">
+        <div className="w-full grid grid-cols-3 gap-6">
          
-          <div className="flex justify-center items-center p-6"><TotalCard /></div>
-          <div className="flex justify-center items-center p-6"><MemberCard /></div>
-          <div className="flex justify-center items-center p-6"><BotCard /></div>
-          <div className="flex justify-center items-center p-6"><TextCard /></div>
-          <div className="flex justify-center items-center p-6"><VoiceCard /></div>
-          <div className="flex justify-center items-center p-6"><RoleCard /></div>
-          <div className="flex justify-center items-center p-6"><CategoryCard /></div>
-          <div className="flex justify-center items-center p-6"><BoostCard /></div>
-          <div className="flex justify-center items-center p-6"><OwnerCard /></div>
+          <div className="flex justify-center items-center"><TotalCard /></div>
+          <div className="flex justify-center items-center"><MemberCard /></div>
+          <div className="flex justify-center items-center"><BotCard /></div>
+          <div className="flex justify-center items-center"><TextCard /></div>
+          <div className="flex justify-center items-center"><VoiceCard /></div>
+          <div className="flex justify-center items-center"><RoleCard /></div>
+          <div className="flex justify-center items-center"><CategoryCard /></div>
+          <div className="flex justify-center items-center"><BoostCard /></div>
+          <div className="flex justify-center items-center"><OwnerCard /></div>
           
           
         </div>
