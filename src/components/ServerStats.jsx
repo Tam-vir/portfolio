@@ -1,54 +1,30 @@
 import Image from "next/image";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faFaceLaughSquint} from "@fortawesome/free-regular-svg-icons"
+import BoostCard from "./statcards/BoostCard";
+import MemberCard from "./statcards/MemberCard"
+import TotalCard from "./statcards/TotalCard"
+import BotCard from "./statcards/BotCard"
+import TextCard from "./statcards/TextCard"
+import VoiceCard from "./statcards/VoiceCard"
+import RoleCard from "./statcards/RoleCard"
+import CategoryCard from "./statcards/CategoryCard"
+import OwnerCard from "./statcards/OwnerCard"
 export default function Welcome() {
   return (
       <div className="w-full h-full flex flex-col justify-center items-center p-6">
-        <h1 className="text-5xl text-extrabold">Server Stats</h1>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <div className="w-3/4 gap-6 flex flex-row justify-around items-center flex-wrap">
-          <div className="p-2 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20">
-            <div className="flex flex-col items-center">          
-              <p className="text-yellow-500 text-xs"><FontAwesomeIcon className="staticon" icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
-              <span className="text-yellow-500 text-xs">Members</span>         
-            </div>
-            <h1>212</h1>
-          </div>
-
-          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20 w-20 h-20">
-            <div className="flex flex-col items-center">          
-              <p className="text-yellow-500 text-xs"><FontAwesomeIcon className="staticon" icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
-              <span className="text-yellow-500 text-xs">Members</span>         
-            </div>
-            <h1>212</h1>
-          </div>
-
-          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20">
-            <div className="flex flex-col items-center">          
-              <p className="text-yellow-500 text-xs"><FontAwesomeIcon className="staticon" icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
-              <span className="text-yellow-500 text-xs">Members</span>         
-            </div>
-            <h1>212</h1>
-          </div>
-
-          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20">
-            <div className="flex flex-col items-center">          
-              <p className="text-yellow-500 text-xs"><FontAwesomeIcon className="staticon" icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
-              <span className="text-yellow-500 text-xs">Members</span>         
-            </div>
-            <h1>212</h1>
-          </div>
-
-          <div className="p-4 flex flex-col items-center justify-center border border-yellow-500 rounded-lg w-20 h-20">
-            <div className="flex flex-col items-center">          
-              <p className="text-yellow-500 text-xs"><FontAwesomeIcon className="staticon" icon={faFaceLaughSquint} size="xs" fixedWidth /></p>
-              <span className="text-yellow-500 text-xs">Members</span>         
-            </div>
-            <h1>212</h1>
-          </div>
+        <div className="w-full grid grid-cols-3">
+         
+          <div className="flex justify-center items-center p-6"><TotalCard /></div>
+          <div className="flex justify-center items-center p-6"><MemberCard /></div>
+          <div className="flex justify-center items-center p-6"><BotCard /></div>
+          <div className="flex justify-center items-center p-6"><TextCard /></div>
+          <div className="flex justify-center items-center p-6"><VoiceCard /></div>
+          <div className="flex justify-center items-center p-6"><RoleCard /></div>
+          <div className="flex justify-center items-center p-6"><CategoryCard /></div>
+          <div className="flex justify-center items-center p-6"><BoostCard /></div>
+          <div className="flex justify-center items-center p-6"><OwnerCard /></div>
+          
           
         </div>
       </div>

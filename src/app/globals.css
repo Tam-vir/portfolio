@@ -48,3 +48,68 @@ body {
 .staticon{
   font-size: 26px;
 }
+
+.boostCard:hover .boostPathOne{
+  fill: #ECEFF1;
+  transition: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.boostCard:hover .boostPathTwo{
+  fill: #FF4DA5;
+  transition: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.vanilla-blur {
+  backdrop-filter: blur(4px);
+}
+.boostCard:hover .boostCardIn{
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.boostCard:hover span{
+  color: white;
+  transition: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.boostCard{
+  box-shadow: 0px 0px 25px 2px rgba(236, 72, 153, 1);
+}
+.cardIcon{
+   font-size: 26px;
+}
+.card:hover .cardIcon{
+  color: white;
+  transition: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card:hover .cardIn{
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card:hover span{
+  color: white;
+  transition: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.memcard{
+  box-shadow: 0px 0px 25px 2px rgba(251, 191, 36, 1);
+}
+.totalcard{
+  box-shadow: 0px 0px 25px 2px rgba(191, 219, 254, 1);
+}
+.botcard{
+  box-shadow: 0px 0px 25px 2px rgba(110, 231, 183, 1);
+}
+.rolecard{
+  box-shadow: 0px 0px 25px 2px rgba(139, 92, 246, 1);
+}
+.categorycard{
+  box-shadow: 0px 0px 25px 2px rgba(139, 92, 246, 1);
+}
+.ownercard{
+  box-shadow: 0px 0px 25px 2px rgba(185, 28, 28, 1);
+}

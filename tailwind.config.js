@@ -14,6 +14,11 @@ module.exports = {
         "banner": "url('/banner.png')",
         "banner2": "url('/banner-2.png')",
       },
+      fill: theme => ({
+         'pink': theme('colors.pink.400'),
+         'white': theme('colors.white'),
+         'blue': theme('colors.blue.500'),
+       })
     },
   },
   plugins: [],
