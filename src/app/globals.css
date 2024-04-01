@@ -45,9 +45,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #202c42;
 }
-.staticon{
-  font-size: 26px;
-}
 
 .boostCard:hover .boostPathOne{
   fill: #ECEFF1;
@@ -77,7 +74,7 @@ body {
   box-shadow: 0px 0px 25px 2px rgba(236, 72, 153, 1);
 }
 .cardIcon{
-   font-size: 26px;
+   font-size: 22px;
 }
 .card:hover .cardIcon{
   color: white;
