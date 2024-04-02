@@ -12,7 +12,7 @@ import CategoryCard from "./statcards/CategoryCard"
 import OwnerCard from "./statcards/OwnerCard"
 async function getServerStats(serverId){
   const myHeaders = new Headers();
-myHeaders.append("Authorization", "Bot MTIyNDc4MDc0Nzk4Mjc3MDI2Nw.Gt_Zzy.7ceGoH8xREDXNQ-5T91KOtJlMHcjMaKXeQ-lfI");
+myHeaders.append("Authorization", "Bot " + process.env.TOKEN);
 
 const requestOptions = {
   method: "GET",
