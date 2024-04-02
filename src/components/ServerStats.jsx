@@ -19,7 +19,7 @@ const requestOptions = {
   headers: myHeaders,
   redirect: "follow"
 };
-
+ 
 const res = await fetch("https://discord.com/api/v10/guilds/939120593956126730?with_counts=true", requestOptions,{
   next:{
     revalidate: 0
